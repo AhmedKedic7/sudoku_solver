@@ -7,10 +7,8 @@ This project is a web-based Sudoku solver that uses the backtracking algorithm t
 - [Features](#features)
 - [Usage](#usage)
 - [Backtracking Algorithm](#backtracking-algorithm)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
+- [Project Structure](#project-structure)
 
 ## Features
 
@@ -37,3 +35,26 @@ This project uses the backtracking algorithm to solve the Sudoku puzzle. The bac
 4. **Recursively Solve**: Recursively attempt to solve the rest of the grid with this number in place.
 5. **Backtrack**: If placing the current number does not lead to a solution, reset the cell and try the next number.
 6. **Repeat**: Continue the process until the grid is completely filled.
+
+## Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/sudoku-solver.git
+    ```
+
+2. Open the `index.html` file in your web browser.
+
+## Project Structure
+
+```plaintext
+sudoku-solver/
+├── css/
+│   └── style.css
+├── js/
+│   ├── jquery.min.js
+│   └── sudoku_solver.js
+├── index.html
+└── README.md
+
